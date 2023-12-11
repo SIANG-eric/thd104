@@ -1,0 +1,297 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div_1{
+    width:100%;
+     height:170px; 
+    background-color: #2B944F;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    
+    
+    
+}
+img{
+    
+    margin-top: 20px;
+    margin-left: 100px;
+   margin-bottom: 20px;
+   
+   
+   
+    
+}
+.div_1> ul{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.div_1 li{
+   
+   width: 100px;
+   height: 40px;
+   background-color: white;
+   
+   margin-right: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 10px;
+   font-weight: bold;
+   
+
+}
+.div_1 li a{
+    text-decoration: none;
+    color:black;
+}
+.div_1 li:nth-child(1):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+
+.div_1 li:nth-child(2):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+.div_1 li:nth-child(3):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+.div_1 li:nth-child(4):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+.div_1 li:nth-child(5):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+.div_1 li:nth-child(6):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+.div_1 li:nth-child(7):hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F; 
+}
+
+  
+
+  
+   
+hr{
+    margin-top: 40px;
+   border: 1px solid black;
+}
+.div_2{
+    position: relative;
+}
+.img_2{
+    margin-left: 0px;
+    margin-top: 80px;
+
+    width: 100%;
+    height:600px ;
+    
+}
+h1{
+font-size: 40px;
+color:red;
+position: absolute;
+top:324px;
+right:210px;
+color:white;
+}
+h2{
+    font-size: 40px;
+    color: #2B944F;
+    position: absolute;
+    top: 369px;
+    right:263px;
+}
+.div_3{
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    font-weight:900;
+    color: #2B944F;
+    margin-top: 40px;
+    margin: 0 auto;
+    
+}
+p{
+    font-size: 24px;
+    margin-top: 20px;
+    width:1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.div_4{
+    display:flex;
+    width: 1200px;
+    
+    margin: 0 auto;
+    
+    
+    
+}
+.img_4{
+    
+    display:block;
+    width:400px;
+    height:250px;
+    margin-left: 0px;
+    
+    
+    
+    
+}
+.img_5{
+    
+    display:block;
+    width:600px;
+    height:400px;
+    
+
+    
+}
+.div_5{
+    width:1200px;
+    height:800px;
+    background-image: url('../素材/background_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    
+
+}
+.div_5 h2{
+    color:white;
+    position: absolute;
+    top: 100px;
+    right:380px;
+}
+.div_5 p{
+    position: absolute;
+    color:white;
+    width:600px;
+    top:153px;      
+    left:302px;
+}
+.div_5 img{
+    width:600px;
+    position: absolute;
+    top:311px;
+    left:118px;
+    
+}
+.div_6{
+    display: flex;
+    width:100%;
+    height:240px;
+    
+    background-color: black;
+    margin-top: 100px ;
+    
+    
+    
+}
+.div_6 p{
+    margin-left: 60px;
+    color:white;
+    width:400px;
+    line-height: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    
+
+    
+    
+
+}
+.div_6 ul{
+  display: block;
+  margin-top:80px ;
+  margin-right:30%;
+  line-height: 32px;
+  
+  
+  
+
+}
+.div_6 ul li{
+    
+    color:white;
+    background-color: black;
+    width:300px;
+    height:30px;
+    line-height: 20px;
+    margin-left: 20px;
+    
+}
+
+.div_6 ul li:nth-child(3){
+    padding-bottom:10px ;
+}
+.div_6 >.icon_1{
+    width:80px;
+    height:80px;
+    
+    margin:0;
+    margin-top: 80px;
+    background-color: rgb(108, 108, 108,.7);
+    margin-right:20px;
+    margin-left: 80px;
+    border-radius:50% ;
+
+}
+
+.div_6 >.icon_2{
+    width:80px;
+    height:80px;
+    
+    margin: 0;
+    margin-right: 15%;
+    margin-top: 80px;
+    
+    background-color: rgb(108, 108, 108,.7);
+    border-radius:50% ;
+}
+.div_6 >.icon_1 img{
+    margin: 0;
+    width:40px;
+    display: block;
+    margin:0 auto;
+    margin-top: 20px;
+    line-height: 80px;
+    
+}
+.div_6 >.icon_2 img{
+    margin: 0;
+    
+    width:40px;
+    
+    display: block;
+    margin:0 auto;
+    margin-top: 20px;
+    line-height: 80px;
+   
+}
+
+.important{
+    background-color: black;
+    color:rgb(72, 70, 70,.7);
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+}

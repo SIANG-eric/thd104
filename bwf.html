@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bwf.css">
+</head>
+<body>
+    <div class="scope">
+        <div class="div_1">
+            <img src="素材/logo.png" alt="">
+            <ul>
+                <li><a href="about me.html">關於我們</a></li>
+                <li><a href="venue.html">場地預約</a></li>
+                <li><a href="Sign up.html">報名指南</a></li>
+                <li><a href="class.html">課程分類</a></li>
+                <li><a href="bwf.html">羽球介紹</a></li>
+                <li><a href="QA.html">常見問題</a></li>
+                <li><a href="member.html">會員登錄</a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="wrapper">
+            <h1>羽球介紹</h1>
+            <div class="box">
+                <ul>
+                    <li>場地規則</li>
+                    <li>比賽規則</li>
+                    <li>羽球歷史</li>
+                </ul>
+                <div class="box2">
+                    <p class="p1">羽球場為長方形，所有界線寬度均為4 公分，以白色或黃色畫成。 中央處隔球網 分成兩個場區，網柱置於雙打場地邊線上，球網高度在雙打邊線丈量應為1.55 公尺， 場地中央處高度為1.524 公尺。 1 分 獲勝1 球即累加得分1 分。 1 局 以先得21 分一 方為勝方。</p>
+                    <p class="p2">羽球單打比賽規則
+                        比賽開始時雙方以擲硬幣卜勝，勝方可選發球或選場地; 負方則行使剩餘的選擇權。(備註：非正式比賽可用「向上拋球，看落地後球頭指向哪一方」或「猜拳」等方式決定球權)
+                        新制羽球比賽採「落地得分制」。意即，只要球落地，就一定有其中一方將拿到分數。
+                        當球落在對手場地的有效區域內(未出界)，則我方得分。反之，當球落在我方場地的有效區域內，則對手得分。</p>
+                        <p class="p3">羽球運動的前身是板羽球（但現在羽球和板羽球已發展成不同的兩種球類運動），也就是使用木板拍打紮有羽毛的球體（類似毽子），並讓它避免落地的遊戲，已有近2000年的歷史，在古代歐洲、中國、日本都可以看見它的身影[1][2]。其中源自古希臘的一種板羽球，更發展出將實木板拍改為木製外框，並在中間綁著緊繃的羊皮，因具彈性而更容易拍打。這種遊戲曾向東方傳播至古代印度，並遠達暹羅、中國與日本等地[3]。然而這類遊戲的目的都只是讓球儘量保持在空中而不落地，與現代羽球運動的精神大異其趣。</p>
+                        <a href="" id="a">雙打</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="div_6">
+            <p>我們誠摯地邀請你參與我們的羽球招生計畫。
+                這不僅僅是一個運動選擇，更是一場尋找卓
+                越、挑戰極限的冒險。</p>
+            <ul class="ul">
+                <li>地址:台北市南港區同德路5號</li>
+                <li>連絡信箱:ex790619@yahoo.com.tw</li>
+                <li>連絡電話:0988888888</li>
+            </ul>
+    
+            <p class="icon_1"><img class="icon_1-1" src="素材/icon1.png" alt=""></p>
+            <p class="icon_2"><img class="icon_2-2"src="素材/icon2.png" alt=""></p> 
+            
+            
+        </div>
+    
+        <p class="important">本網站為緯育TibaMe【第89期】前端工程
+            師專業技術養成班學員作品,僅供學習、展
+            示之用途。</p>
+        
+                <script>
+                    let x=document.querySelectorAll('.box>ul>li')
+                   for(var i=0;i<x.length;i++){
+                        console.log(x[i]);
+                   };
+                   let p1=document.querySelector('.box2>.p1');
+                   
+                   x[0].addEventListener('mouseover',function(){
+                    p1.setAttribute('style','display:block');
+                   })
+                   x[0].addEventListener('mouseout',function(){
+                    p1.setAttribute('style','display:none');
+                   })
+                   
+                   let y =document.querySelectorAll('.box>a')
+                   console.log(y);
+                   let p2=document.querySelector('.box2>.p2');
+
+                   
+                   x[1].addEventListener('mouseover',function(){
+                    p2.setAttribute('style','display:block');
+                    
+                   })
+                   x[1].addEventListener('mouseout',function(){
+                    p2.setAttribute('style','display:none');
+                   })
+                   let p3=document.querySelector('.box2>.p3');
+                  
+                   
+                   x[2].addEventListener('mouseover',function(){
+                    p3.setAttribute('style','display:block');
+                   })
+                   x[2].addEventListener('mouseout',function(){
+                    p3.setAttribute('style','display:none');
+                   })
+
+                   
+                   
+                   
+                   
+                   
+                    
+                    
+                    
+                    
+                   
+                    
+                    // console.log(p1);
+                    // x.addEventListener('mouseover',function(){
+                    //     p1.setAttribute("style","display:block");
+                       
+                    // });
+
+                    // x.addEventListener('mouseout',function(){
+                    //     p1.setAttribute('style','display:none');
+                    // })
+                </script>
+</body>
+</html>
