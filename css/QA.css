@@ -109,7 +109,7 @@ hr{
     display: flex;
     justify-content: space-around;
 }
-.ul > li{
+.aaa > li{
     font-size: 24px;
     font-weight:bold;
     margin-top: 20px;   
@@ -407,7 +407,7 @@ hr{
 .div_6 p{
     margin-left: 120px;
     color:white;
-    font-size: 24px;
+    
     width:300px;
     line-height: 30px;
     margin-top: 80px;
@@ -421,9 +421,9 @@ hr{
 }
 .div_6 ul{
   display: block;
-  height:100px;
+  
   margin-top:80px ;
-  margin-right:10%;
+  margin-right:25%;
   line-height: 32px;
   
   
@@ -433,13 +433,13 @@ hr{
 .div_6 ul li{
     
     color:white;
-    font-size: 18px;
+    
     background-color: black;
     width:300px;
     height:30px;
     line-height: 20px;
     margin-left: 20px;
-    margin-top: 10px;
+    
     
 }
 
