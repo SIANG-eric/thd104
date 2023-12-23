@@ -193,17 +193,17 @@ li{
 }
 
 .item1{
-    background-image: url(../素材/coach10.jpg);
+    background-image: url(../image/coach10.jpg);
     flex-grow: 1;
 }
 
 .item2{
-    background-image: url(../素材/coach9.jpg);
+    background-image: url(../image/coach9.jpg);
     flex-grow: 1;
 }
 
 .item3{
-    background-image: url(../素材/coach4.jpg);
+    background-image: url(../image/coach4.jpg);
     flex-grow: 1;
 }
 
