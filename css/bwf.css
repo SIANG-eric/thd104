@@ -14,10 +14,12 @@ body{
     
 }
 img{
+    width: 250px;
+    height:100px;
     
-    margin-top: 20px;
-    margin-left: 100px;
-   margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+   margin-bottom: 40px;
    
    
    
@@ -188,7 +190,7 @@ hr{
     height:240px;
     
     background-color: black;
-    margin-top: 100px ;
+    margin-top: 40px ;
     
     
     
@@ -199,7 +201,7 @@ hr{
     width:400px;
     line-height: 35px;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     
     
 
@@ -208,11 +210,13 @@ hr{
 
 }
 .div_6 ul{
-  display: block;
-  margin-top:80px ;
-  margin-right:25%;
-  line-height: 32px;
+  width:400px;
+  height:160px;
+  margin-top:65px ;
   
+  line-height: 32px;
+  margin-bottom: 160px;
+
   
   
 
@@ -231,56 +235,20 @@ hr{
 .div_6 ul li:nth-child(3){
     padding-bottom:10px ;
 }
-.div_6 >.icon_1{
-    width:80px;
-    height:80px;
-    
-    margin:0;
-    margin-top: 80px;
-    background-color: rgb(108, 108, 108,.7);
-    margin-right:20px;
-    margin-left: 80px;
-    border-radius:50% ;
-
-}
-
-.div_6 >.icon_2{
-    width:80px;
-    height:80px;
-    
-    margin: 0;
-    margin-right: 10%;
-    margin-top: 80px;
-    
-    background-color: rgb(108, 108, 108,.7);
-    border-radius:50% ;
-}
-.div_6 >.icon_1 > img{
-    margin: 0;
-    width:40px;
-    height:40px;
-    display: block;
-    margin:0 auto;
-    margin-top: 20px;
-    line-height: 80px;
+.icon{
+    width:100px;
+    text-align: center;
     
 }
-.div_6 >.icon_2 > img{
-    margin: 0;
-    
-    width:40px;
-    height:40px;
-    
-    display: block;
-    margin:0 auto;
-    margin-top: 20px;
-    line-height: 80px;
-   
+i{
+    font-size: 50px;
+color: white;
+margin: 15px ;
 }
 
 .important{
     background-color: black;
-    color:rgb(72, 70, 70,.7);
+    color:rgba(249, 247, 247, 0.7);
     margin: 0 auto;
     width:100%;
     text-align: center;

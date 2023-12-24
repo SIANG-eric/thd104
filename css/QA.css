@@ -13,11 +13,13 @@ body{
     
     
 }
-img{
+.logo{
+    width: 250px;
+    height:100px;
     
-    margin-top: 20px;
-    margin-left: 100px;
-   margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+   margin-bottom: 40px;
    
    
    
@@ -112,7 +114,10 @@ hr{
 .aaa > li{
     font-size: 24px;
     font-weight:bold;
-    margin-top: 20px;   
+    margin-top: 20px; 
+    padding-bottom: 10px ;
+    border-bottom: 3px solid rgb(7, 7, 7);
+
 }
 .body{
     background-color:#48CC75 ;
@@ -126,6 +131,7 @@ hr{
 }
 .Q1-1{
     display: flex;
+   
 }
 .Q1-1>img{
     margin:0;
@@ -365,10 +371,64 @@ hr{
     border-radius: 20px;
     opacity: .8;
     display:none;
+    }
+ /* ---------------------------------------    */
+ .Q7-1{
+    display: flex;
+}
+.Q7-1>img{
+    margin:0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Q7-1>p{
+    font-size: 26px;
+    margin-top: 30px;
+}
+.Q1-2{
+    display: flex;
+}
+.p_1{
+    width:600px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin-left:20px;
+    padding:10px;
+    height:70px;
+    line-height: 30px;
+    border-radius: 20px;
+    opacity: .8;
+    display:none;
     
     
 
 }
+.img_1{
+    margin:0;
+    margin-left: 20px;
+    margin-top:20px;
+    width:40px;
+    height:40px;
+    transition: 2s;
+     
+}
+.Q1-2+hr{
+    border: 3px dashed;
+    margin:0;
+    width:600px;
+    margin-left: 90px;
+    
+    margin-top: 10px;
+    color: white;
+}
+
+ .img_1:hover + .p_1{
+    display: block;
+    
+}
+
+
+
 .img_5{
     margin:0;
     margin-left: 20px;
@@ -399,19 +459,18 @@ hr{
     height:240px;
     
     background-color: black;
-    margin-top: 100px ;
+    margin-top: 40px ;
     
     
     
 }
 .div_6 p{
-    margin-left: 120px;
+    margin-left: 60px;
     color:white;
-    
-    width:300px;
-    line-height: 30px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    width:400px;
+    line-height: 35px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     
     
 
@@ -420,12 +479,13 @@ hr{
 
 }
 .div_6 ul{
-  display: block;
+  width:400px;
+  height:160px;
+  margin-top:65px ;
   
-  margin-top:80px ;
-  margin-right:25%;
   line-height: 32px;
-  
+  margin-bottom: 160px;
+
   
   
 
@@ -433,69 +493,31 @@ hr{
 .div_6 ul li{
     
     color:white;
-    
     background-color: black;
     width:300px;
     height:30px;
     line-height: 20px;
     margin-left: 20px;
     
-    
 }
 
 .div_6 ul li:nth-child(3){
     padding-bottom:10px ;
 }
-.div_6 >.icon_1{
-    width:80px;
-    height:80px;
-    
-    margin:0;
-    margin-top: 80px;
-    background-color: rgb(108, 108, 108,.7);
-    margin-right:20px;
-    margin-left: 80px;
-    border-radius:50% ;
-
-}
-
-.div_6 >.icon_2{
-    width:80px;
-    height:80px;
-    
-    margin: 0;
-    margin-right: 15%;
-    margin-top: 80px;
-    
-    background-color: rgb(108, 108, 108,.7);
-    border-radius:50% ;
-}
-.div_6 >.icon_1 img{
-    margin: 0;
-    width:40px;
-    height: 40px;
-    display: block;
-    margin:0 auto;
-    margin-top: 20px;
-    line-height: 80px;
+.icon{
+    width:100px;
+    text-align: center;
     
 }
-.div_6 >.icon_2 img{
-    margin: 0;
-    
-    width:40px;
-    height: 40px;
-    
-    display: block;
-    margin:0 auto;
-    margin-top: 20px;
-    line-height: 80px;
-   
+i{
+    font-size: 50px;
+color: white;
+margin: 15px ;
 }
 
 .important{
     background-color: black;
-    color:rgb(72, 70, 70,.7);
+    color:rgba(249, 247, 247, 0.7);
     margin: 0 auto;
     width:100%;
     text-align: center;
