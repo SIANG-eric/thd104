@@ -1,0 +1,432 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div_1{
+    width:100%;
+     height:170px; 
+    background-color: #2B944F;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    
+    
+    
+}
+.img{
+    width: 250px;
+    height:100px;
+    
+    margin-top: 40px;
+    margin-left: 80px;
+   margin-bottom: 40px;
+   
+   
+   
+    
+}
+.div_1> ul{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.div_1 li{
+   
+   width: 100px;
+   height: 40px;
+   background-color: white;
+   
+   margin-right: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 10px;
+   font-weight: bold;
+   
+
+}
+.div_1 li a{
+    text-decoration: none;
+    color:black;
+}
+
+.div_1 li:hover{
+    box-shadow: 4px 4px 4px #5c5a5a;
+    background-color: #2B944F;
+}
+  
+hr{
+    margin-top: 40px;
+   border: 1px solid black;
+}
+.thp {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.h1 {
+    font-size: 40px;
+    color: #2B944F;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.p {
+
+    width: 800px;
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 40px;
+
+
+}
+
+.bgi_1 {
+    width: 1200px;
+    height: 10px;
+    background-image: url(../image/class2.jpg);
+    border-image-repeat: no-repeat;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid white;
+
+
+}
+
+.h2 {
+    font-size: 30px;
+    width: 285px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 30px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.h2_2 {
+    font-size: 40px;
+    width: 160px;
+    margin: 0 auto;
+    color: #2B944F;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.p_2 {
+    font-size: 24px;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+hr{
+    margin-top: 40px;
+   border: 1px solid black;
+}
+/* -------------區塊一 */
+.thp {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.h1 {
+    font-size: 40px;
+    color: #2B944F;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.p {
+
+    width: 800px;
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 40px;
+
+
+}
+
+.bgi_1 {
+    width: 1200px;
+    height: 10px;
+    background-image: url(../image/class2.jpg);
+    background-size: cover;
+    border-image-repeat: no-repeat;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid white;
+
+
+}
+
+.h2 {
+    font-size: 30px;
+    width: 285px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 30px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.h2_2 {
+    font-size: 40px;
+    width: 160px;
+    margin: 0 auto;
+    color: #2B944F;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.p_2 {
+    font-size: 24px;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.h2_3 {
+    font-size: 40px;
+    height: 60px;
+    color: #2B944F;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+/* --------------區塊二 */
+.carousel-container {
+    overflow: hidden;
+    width:600px;
+    height:600px;
+}
+
+.sliderBoard {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.bgi_2a {
+    flex: 0 0 100%;
+    display: flex;
+}
+
+.carousel-image {
+    width: 100%; 
+    border-radius: 20px;
+}
+.bgi_2{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    margin-top: 60px;
+    background-image: url(../image/class1234.jpg); 
+}
+.bgi_2a{
+    
+    width: 600px;
+    height:100px;
+    margin-top: 40px;
+    
+    
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}.bgi_2a_1{
+    margin: 20px auto 0;
+    border-radius: 20px;
+    width: 555px;
+    height:250px;
+    cursor: pointer;
+    
+    
+    
+    }
+.bgi_2a_2{
+margin: 20px auto;
+width: 250px;
+height:250px;
+cursor: pointer;
+
+
+
+border-radius: 20px;
+
+}
+ .bgi_2a_3{
+    margin: 20px auto;
+    width: 250px;
+    height:250px;
+    border-radius: 20px;
+   
+    
+    cursor: pointer; 
+}
+.btn1{
+    width:40px;
+    height:40px;
+    background-image: url(../image/left.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.btn2{
+    width:40px;
+    height:40px;
+    background-image: url(../image/right\ .jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+    
+}
+/*--------- bgi_2b-------------- */
+ .bgi_2b{
+    margin-top:120px;
+    margin-right: 100px;
+    border-radius: 20px;
+    
+    width:700px;
+    height:500px;
+    
+    background-color: rgb(255,255,255,0.7);
+
+} 
+
+.bgi_2b_all> h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.bgi_2b_all> h2{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.bgi_2b_all> p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.bgi_2b_2{display: none;}
+.bgi_2b_3{display: none;}
+.bgi_2c1{display: none;}
+.bgi_2c2{display: none;}
+.bgi_2c3{display: none;}
+.bgi_2d1{display: none;}
+.bgi_2d2{display: none;}
+.bgi_2d3{display: none;}
+
+
+
+
+
+
+.div_6{
+    display: flex;
+    width:100%;
+    height:240px;
+    
+    background-color: black;
+    margin-top: 40px ;
+    
+    
+    
+}
+.div_6 p{
+    margin-left: 60px;
+    color:white;
+    width:400px;
+    line-height: 35px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+    
+
+    
+    
+
+}
+.div_6 ul{
+  width:400px;
+  height:160px;
+  margin-top:65px ;
+  
+  line-height: 32px;
+  margin-bottom: 160px;
+
+  
+  
+
+}
+.div_6 ul li{
+    
+    color:white;
+    background-color: black;
+    width:300px;
+    height:30px;
+    line-height: 20px;
+    margin-left: 20px;
+    
+}
+
+.div_6 ul li:nth-child(3){
+    padding-bottom:10px ;
+}
+.icon{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon > a{
+    width: 60px;
+    height: 40px;
+}
+i{
+    font-weight: 200px;
+    color: white;
+    margin: 20px; /* 清除預設邊距 */
+}
+
+.important{
+    background-color: black;
+    color:rgba(249, 247, 247, 0.7);
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+}

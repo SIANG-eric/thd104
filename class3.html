@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/class3.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="https://kit.fontawesome.com/a0a983bc7d.js" crossorigin="anonymous"></script>
+    <style>
+        .carousel-container {
+            overflow: hidden;
+            width:600px;
+            height:600px;
+        }
+
+        .sliderBoard {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .bgi_2a {
+            flex: 0 0 100%;
+            display: flex;
+        }
+
+        .carousel-image {
+            width: 100%; /* 讓圖片寬度與父容器相同 */
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="scope">
+        <div class="div_1">
+            <a href="index.html"><img class="img" src="image/logo.png" alt=""></a>
+            <ul>
+                <li><a href="about-me.html">關於我們</a></li>
+                <li><a href="venue.html">場地預約</a></li>
+                <li><a href="Sign-up.html">報名指南</a></li>
+                <li><a href="class.html">課程分類</a></li>
+                <li><a href="bwf.html">羽球介紹</a></li>
+                <li><a href="QA.html">常見問題</a></li>
+                <li><a href="member.html">會員登錄</a></li>
+            </ul>
+            
+        </div>
+        <hr>
+    </div>
+   
+    <div class="thp">
+        <h1 class="h1">如何有效率地把羽球練好？</h1>
+        <p class="p">系統化教學模式<br>
+            專業教練帶您系統化有效練習，快速建立正確觀念。
+            避免傳統教練想到什麼練什麼，總是學不完，或是重複練習一樣的。<br>
+            錄影+上傳<br>
+            練球現場側錄，練完球上傳影片，方便您輕鬆檢視自己的動作。
+            避免練了老半天都不知道自己動作有沒有到位、球速有沒有出來、
+            甚至忘記練過什麼。<br>
+            課程配套<br>
+            提供實惠的練球價格，以及務實的請假補課辦法
+            ，替您節約練球預算。
+        </p>
+        <div class="bgi_1">
+            <h2 class="h2">打破規律 多變挑戰！</h2>
+            <h3 class="h3">讓lütuf top oyna陪你更厲害</h3>
+        </div>
+        <h2 class="h2_2">課程分類</h2>
+        <p class="p_2">lütuf top oyna為您準備好高端品質的訓練課程
+            不論是單打、雙打、或是戰術的訓練都擁有完善的
+            規劃
+        </p>
+        
+        
+    </div> 
+    <!-- --------------------------------區塊二 -->
+    <div class="bgi_2" >
+         
+                        
+        
+           <!-- ------bgi_2a -->
+            <div class="carousel-container"style="height:650px">
+                <!-- -----------------輪播圖片控制鈕 -->
+                <button onclick="prevSlide()" class="btn1"></button>
+                <button onclick="nextSlide()" class="btn2"></button>          
+                <div class="sliderBoard">
+
+                    <!-- ---------------------------------------單打 -->
+                    <div class="bgi_2a" style="display:flex" >
+                        <div class="bgi_2a_1 bgi_click1" ><img src="./image/class11.jpg" width="555"height="250" style="border-radius: 20px;"></div>
+                        <div class="bgi_2a_2 bgi_click2"><img src="./image/222.jpg" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                        <div class="bgi_2a_3 bgi_click3"><img src="./image/300.jpg" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                
+                    </div>
+
+                     <!-- ---------------------------------------雙打 -->
+                    <div class="bgi_2a" style="display:flex" >
+                        <div class="bgi_2a_1 bgi_click4" ><img src="./image/class11.jpg" width="555"height="250" style="border-radius: 20px;"></div>
+                        <div class="bgi_2a_2 bgi_click5"><img src="./image/background_1.jpg" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                        <div class="bgi_2a_3 bgi_click6"><img src="./image/a4n1w-jduuz.jpg" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                
+                    </div>
+                    <!-- ---------------------------------------戰術 -->
+                    <div class="bgi_2a" style="display:flex" >
+                        <div class="bgi_2a_1 bgi_click7" ><img src="./image/class123.jpg" width="555"height="250" style="border-radius: 20px;"></div>
+                        <div class="bgi_2a_2 bgi_click8"><img src="./image/icon2.png" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                        <div class="bgi_2a_3 bgi_click9"><img src="./image/class1234.png" width="250"height="250" style="border-radius: 20px;" alt=""></div>
+                
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+            <div class='bgi_2b'>
+            <div class="bgi_2b_1 bgi_2b_all" >
+                <h1 style="margin-bottom:20px">單打基礎班</h1>
+                
+                    <h2>握拍和基本擊球技巧</h2>
+                <p>正確的握拍姿勢基本擊球動作，如正手、反手、截擊等</p>
+                <h2>戰術應對和對手分析</h2>
+                <p>改變範圍和節奏的戰術操練
+                    學會分析對手弱點和制定對應策略</p>
+                <h2>速度和力量的操控</h2>
+                <p>瞬間加速和變速的技術
+                    如何在比賽中掌握節奏</p>
+                <h2>實戰演練</h2>
+                <p>模擬各種比賽場景的實戰演練
+                    學會在比賽中靈活應變</p>
+                
+                
+            </div>
+            <div class="bgi_2b_2 bgi_2b_all">
+                <h1 style="margin-bottom:20px">單打中階班</h1>
+                
+                    <h2>中場操控和反制技術</h2>
+                <p>中場範圍的擊球技術
+                    高效的反制對手技巧</p>
+                <h2>站位和移動技巧</h2>
+                <p>在球場中的正確站位,
+                    如何有效地移動並追球</p>
+                <h2>基本戰術概念</h2>
+                <p>控制球場中心,
+                    適時上網的時機和方法</p>
+                <h2>比賽經驗模擬</h2>
+                <p>小型比賽和模擬比賽經驗
+                    學習在壓力下保持冷靜的技巧</p>
+            </div>
+            <div class="bgi_2b_3 bgi_2b_all">
+                <h1 style="margin-bottom:20px">單打高階班</h1>
+                
+                    <h2>高級技術操控</h2>
+                <p>角度和旋轉的變化技術
+                    高難度技巧的練習，如滾球、切削等</p>
+                <h2>心理素質強化</h2>
+                <p>壓力下保持冷靜的心理技巧
+                    面對困難局面時的心理應對策略</p>
+                <h2>抗各種風格的對手</h2>
+                <p>分析並應對不同風格的對手
+                    學習變化戰術以應對不同情境</p>
+                <h2>比賽戰略和規劃</h2>
+                <p>制定比賽戰略和計劃
+                    適應不同比賽場地和環境的策略調整</p>
+            </div>
+            <div class='bgi_2c1 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">雙打基礎班</h1>
+                
+                    <h2>基本雙打技術</h2>
+                <p>正確的握拍姿勢和合作技術
+                    雙打中的正手、反手、截擊等基本擊球動作</p>
+                <h2>雙打戰術基礎</h2>
+                <p>配合默契的雙打站位
+                    適時的交換位置和合作移動</p>
+                <h2>雙打球場控制</h2>
+                <p>學習如何共同掌握球場中心
+                    合作進攻和防守的基本戰術</p>
+                <h2>配合和溝通</h2>
+                <p>配合默契的點頭、手勢和溝通技巧
+                    學會如何預測搭檔的動向</p>
+            </div>
+            <div class='bgi_2c2 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">雙打中階班</h1>
+                
+                    <h2>中場雙打技術</h2>
+                <p>中場擊球技巧的提升，包括交叉擊球等
+                    學習如何在中場協同作戰</p>
+                <h2>戰術合作</h2>
+                <p>中場雙打的戰術應對
+                    提高在比賽中的戰術靈活度</p>
+                <h2>反制對手戰術</h2>
+                <p>學會分析對手的雙打風格
+                    運用戰術反制對手的弱點</p>
+                <h2>實戰演練和比賽模擬</h2>
+                <p>進行實戰演練，模擬比賽場景
+                    學會在壓力下保持合作和默契</p>
+            </div>
+            <div class='bgi_2c3 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">雙打輪轉班</h1>
+                
+                    <h2>輪轉戰術和技巧</h2>
+                <p>學習輪轉的基本概念和技巧
+                    提高輪轉的靈活度和速度</p>
+                <h2>輪轉中的位置控制</h2>
+                <p>如何在輪轉中掌握良好的站位
+                    各種情況下的輪轉站位策略</p>
+                <h2>快速適應對手風格</h2>
+                <p>學會快速適應對手的雙打風格
+                    提高輪轉中的合作能力</p>
+                <h2>模擬比賽輪轉</h2>
+                <p>進行高強度的模擬比賽，強化輪轉技能
+                    學習如何在真實比賽中靈活應對不同的情境</p>
+            </div>
+            <div class='bgi_2d1 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">羽球進階高手養成班</h1>
+                
+                    <h2>技術提升和戰術研究</h2>
+                <p>學習高難度技術，如反手跳擊、切削等
+                    深入研究高階戰術，包括變速、轉換進攻方式等
+                    模擬比賽中的不同戰術情境</p>
+                <h2>對抗頂尖對手與實戰經驗</h2>
+                <p>與頂尖選手進行實戰比賽
+                    分析並適應不同風格的對手
+                    實戰經驗的積累和深度學習</p>
+                <h2>專業比賽和心理素質培養</h2>
+                <p>學習如何共同掌握球場中心
+                    合作進攻和防守的基本戰術</p>
+
+            </div>    
+            <div class='bgi_2d2 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">羽球精英高手養成班</h1>
+                
+                    <h2>高度技術和戰術磨練</h2>
+                <p>進行高難度技術的深度磨練
+                    高度複雜戰術的應用和實戰練習
+                    制定個性化的比賽戰術計畫</p>
+                <h2>個別化訓練和技術創新</h2>
+                <p>针对个人技术特点的个别化训练
+                    探索和引入羽球技术的创新
+                    強化專業領域的技術競爭力</p>
+                <h2>國際比賽參與和全方位發展</h2>
+                <p>學會分析對手的雙打風格
+                    運用戰術反制對手的弱點</p>
+                <h2>實戰演練和比賽模擬</h2>
+                <p>參與國際賽事，拓展視野和比賽經驗
+                    建立全方位的專業發展計劃，包括技術、體能、心理素質等</p>
+            </div>
+            <div class='bgi_2d3 bgi_2b_all'>
+                <h1 style="margin-bottom:20px">羽球卓越高手養成班</h1>
+                
+                    <h2>卓越技術與科技應用</h2>
+                <p>掌握世界一流的羽球技術
+                    運用科技手段進行技術分析和優化
+                    推動技術的創新和應用</p>
+                <h2>全球化比賽佈局和領導力培養</h2>
+                <p>規劃全球化比賽佈局，參與多國賽事
+                    培養領導力和團隊協作能力
+                    擔任教練和指導員角色，分享經驗與知識</p>
+                <h2>持續專業發展與貢獻社群：
+                </h2>
+                <p>持續尋求專業知識的更新和擴充
+                    積極參與羽球社群和羽球運動的發展
+                    成為羽球界的卓越代表和推動者</p>
+                
+            </div>
+       </div>
+    </div>
+       
+    
+    
+
+    <div class="div_6">
+        <p>我們誠摯地邀請你參與我們的羽球招生計畫。
+        這不僅僅是一個運動選擇，更是一場尋找卓
+        越、挑戰極限的冒險。</p>
+        <ul>
+            <li>地址:台北市南港區同德路5號</li>
+            <li>連絡信箱:ex790619@yahoo.com.tw</li>
+            <li>連絡電話:0988888888</li>
+        </ul>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14458.264611205506!2d121.581875!3d25.0487933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab9e29c5287b%3A0x7cf9d3e5211f9360!2z6Ie65YyX5biC5Y2X5riv6YGL5YuV5Lit5b-DIFRhaXBlaSBOYW5nYW5nIFNwb3J0cyBDZW50ZXI!5e0!3m2!1szh-TW!2stw!4v1703309583364!5m2!1szh-TW!2stw" width="400" height="200px" style="border:0;margin-top :20px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        </div>
+
+    <p class="important">本網站為緯育TibaMe【第89期】前端工程
+    師專業技術養成班學員作品,僅供學習、展
+    示之用途。</p>
+        
+    <script>
+        
+let currentIndex = 0;
+const slider = document.querySelector('.sliderBoard');
+const totalSlides = document.querySelectorAll('.bgi_2a').length;
+
+function showSlide(index) {
+    const slideWidth = slider.clientWidth;
+    currentIndex = index;
+
+    slider.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+}
+
+// 每3秒自動推進輪播（根據需要調整）
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    showSlide(currentIndex);
+}, 10000);
+
+// 在窗口大小變化時重新計算並顯示當前輪播
+window.addEventListener('resize', () => {
+    showSlide(currentIndex);
+});
+
+// 新增的前進和後退按鈕功能
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    showSlide(currentIndex);
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    showSlide(currentIndex);
+}
+
+    let click1=document.querySelector('.bgi_click1')
+    let click2=document.querySelector('.bgi_click2')
+    let click3=document.querySelector('.bgi_click3')
+    let click4=document.querySelector('.bgi_click4')
+    let click5=document.querySelector('.bgi_click5')
+    let click6=document.querySelector('.bgi_click6')
+    let click7=document.querySelector('.bgi_click7')
+    let click8=document.querySelector('.bgi_click8')
+    let click9=document.querySelector('.bgi_click9')
+    let bgi_2b_1=document.querySelector('.bgi_2b_1')
+    let bgi_2b_2=document.querySelector('.bgi_2b_2')
+    let bgi_2b_3=document.querySelector('.bgi_2b_3')
+    let bgi_2c1=document.querySelector('.bgi_2c1')
+    let bgi_2c2=document.querySelector('.bgi_2c2')
+    let bgi_2c3=document.querySelector('.bgi_2c3')
+    let bgi_2d1=document.querySelector('.bgi_2d1')
+    let bgi_2d2=document.querySelector('.bgi_2d2')
+    let bgi_2d3=document.querySelector('.bgi_2d3')
+    click1.addEventListener('click',function(){
+        bgi_2b_1.style.display='block';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click2.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='block';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click3.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='block';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click4.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='block';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click5.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='block';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+        
+    })
+    click6.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='block';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click7.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='block';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='none';
+    })
+    click8.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='block';
+        bgi_2d3.style.display='none';
+    })
+    click9.addEventListener('click',function(){
+        bgi_2b_1.style.display='none';
+        bgi_2b_2.style.display='none';
+        bgi_2b_3.style.display='none';
+        bgi_2c1.style.display='none';
+        bgi_2c2.style.display='none';
+        bgi_2c3.style.display='none';
+        bgi_2d1.style.display='none';
+        bgi_2d2.style.display='none';
+        bgi_2d3.style.display='block';
+    })
+    
+    
+
+
+
+    </script>
+    
+</body>
+</html>

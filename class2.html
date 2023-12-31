@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wi
+    dth, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/class2.css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    
+    
+   
+    
+    
+    <script src="https://kit.fontawesome.com/a0a983bc7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="scope">
+        <div class="div_1">
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <ul>
+                <li><a href="about-me.html">關於我們</a></li>
+                <li><a href="venue.html">場地預約</a></li>
+                <li><a href="Sign-up.html">報名指南</a></li>
+                <li><a href="class.html">課程分類</a></li>
+                <li><a href="bwf.html">羽球介紹</a></li>
+                <li><a href="QA.html">常見問題</a></li>
+                <li><a href="member.html">會員登錄</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <div class="thp">
+        <h1 class="h1">如何有效率地把羽球練好？</h1>
+        <p class="p">系統化教學模式<br>
+            專業教練帶您系統化有效練習，快速建立正確觀念。
+            避免傳統教練想到什麼練什麼，總是學不完，或是重複練習一樣的。<br>
+            錄影+上傳<br>
+            練球現場側錄，練完球上傳影片，方便您輕鬆檢視自己的動作。
+            避免練了老半天都不知道自己動作有沒有到位、球速有沒有出來、
+            甚至忘記練過什麼。<br>
+            課程配套<br>
+            提供實惠的練球價格，以及務實的請假補課辦法
+            ，替您節約練球預算。
+        </p>
+
+        <div class="bgi_1">
+            <h2 class="h2">打破規律 多變挑戰！</h2>
+            <h3 class="h3">讓lütuf top oyna陪你更厲害</h3>
+        </div>
+        <h2 class="h2_2">課程分類</h2>
+        <p class="p_2">lütuf top oyna為您準備好高端品質的訓練課程
+            不論是單打、雙打、或是戰術的訓練都擁有完善的
+        規劃</p>
+        
+    </div>
+    
+    </div>
+    <!--課程一 ---------------------------------------- -->
+    <div class="course" >
+        
+        <div class="course1-1"></div>
+        <div class="course1-7" style="width:30%;background-color: rgb(104, 94, 243);display: none;"></div>
+        
+        <div class="course1-2 "style="height:400px">
+            <div class="course1-3"></div>
+            <div class="course1-4" style="display: none;"></div>
+            <div class="course1-6"style="display: none;"></div>
+            <div class="course1-5"></div>
+        </div>
+        
+        
+    </div>  
+    <div>123</div>
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>
+        <div>123</div>  
+
+       
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                let aaa = document.querySelector('.course1-3');
+                let bbb = document.querySelector('.course1-4');
+                let ccc = document.querySelector('.course1-5');
+                let ddd = document.querySelector('.course1-6');
+                let eee=document.querySelector('.course1-1');
+                let fff=document.querySelector('.course1-7');
+                
+                aaa.addEventListener('click', function () {
+                    if (aaa.classList.contains('height')) {
+                        aaa.classList.remove('height');
+                        bbb.style.transition = 'transform 2s ease-in-out';
+                        bbb.style.transform = 'translateY(0)';
+                        bbb.style.display = 'none';
+                        bbb.style.maxHeight = '0';
+                        bbb.style.height = '0';
+                        ccc.style.transition = 'height 0.5s ease-in-out';
+                        ccc.style.height = '50%';
+        
+                        // 新增邏輯：在折疊時重置 course1-6
+                        ddd.style.display = 'none';
+                        ddd.style.height = '0';
+                    } else {
+                        aaa.classList.add('height');
+                        bbb.style.display = 'block';
+                        bbb.style.transition = 'transform 10s ease-in-out';
+                        bbb.style.transform = 'translateY(0)';
+                        bbb.style.maxHeight = '400px';
+                        bbb.style.height = '45%'; // 修正這裡的高度設定
+                        ccc.style.transition = 'height 0.5s ease-in-out';
+                        ccc.style.height = '5%';
+                    }
+                });
+        
+                ccc.addEventListener('click', function () {
+                    if (ccc.classList.contains('height')) {
+                        // 如果 'height' class 存在，表示需要折疊
+                        ccc.classList.remove('height');
+                        ddd.style.display = 'none';
+                        ddd.style.height = '0';
+                        aaa.style.transition = 'height 0.5s ease-in-out';
+                        aaa.style.height = '50%';
+                    } else {
+                        // 如果 'height' class 不存在，表示需要展開
+                        ccc.classList.add('height');
+                        ccc.style.height = '50%';
+                        ddd.style.display = 'block';
+                        ddd.style.transition = 'height 0.5s ease-in-out';
+                        ddd.style.height = '45%';
+                        aaa.style.transition = 'height 0.5s ease-in-out';
+                        aaa.style.height = '5%';
+                    }
+                });
+                eee.addEventListener('click', function () {
+            if (eee.classList.contains('width')) {
+                eee.classList.remove('width');
+                fff.style.display = 'none';
+                fff.style.width = '0';
+                fff.style.left = '0'; /* 重置 left 值 */
+            } else {
+                eee.classList.add('width');
+                fff.style.width = '30%'; /* 最終展開的寬度，根據需要調整 */
+                fff.style.display = 'block';
+                fff.style.left = '0'; /* 重置 left 值 */
+            }
+        });
+        eee.addEventListener('click', function () {
+            if (eee.classList.contains('width')) {
+                eee.classList.remove('width');
+                fff.style.display = 'none';
+                fff.style.width = '0';
+                fff.style.left = '0';
+            } else {
+                eee.classList.add('width');
+                fff.style.width = '30%'; /* 最終展開的寬度，根據需要調整 */
+                fff.style.display = 'block';
+                fff.style.left = '35%'; /* 調整 left 值，讓 course1-7 從內部展開到外面 */
+            }
+        });
+                eee.addEventListener('click',function(){
+                    if (eee.classList.contains('width')) {
+                        eee.classList.remove('width');
+                        fff.style.display='none';
+                        eee.style.width='60%';
+                    }else{
+                        eee.classList.add('width')
+                        fff.style.width='40%'
+                        fff.style.display="block"
+                        eee.style.width='20%'
+                        eee.style.transition='2s'
+
+                    }
+                })
+
+            })       
+            
+            
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+              
+
+        
+        
+        
+        
+        
+        
+  
+
+ 
+</body>
+</html>
