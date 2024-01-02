@@ -3,7 +3,7 @@ body{
 }
 
 .div_1{
-    width:100%;
+    width:auto;
      height:170px; 
     background-color: #2B944F;
     display:flex;
@@ -11,7 +11,10 @@ body{
     border-bottom: 2px solid black;
     
     
-    
+  
+}
+.fa{
+    display: none;
 }
 .logo{
     width: 250px;
@@ -26,6 +29,7 @@ body{
     
 }
 .div_1> ul{
+    width:auto;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -99,7 +103,7 @@ hr{
     height:600px ;
     
 }
-h1{
+.div_2> h1{
 font-size: 60px;
 color:red;
 position: absolute;
@@ -116,6 +120,7 @@ color:white;
     margin-top: 20px;
 }
 .div_3{
+    width:auto;
     margin-top: 40px;
     text-align: center;
 }
@@ -150,7 +155,7 @@ color:white;
 .div_4 .img_4{
     
     display:block;
-    width:400px;
+    width: 30%;
     height:250px;
     margin-left: 0px;
     
@@ -161,7 +166,7 @@ color:white;
  .img_5{
     
     display:block;
-    width:600px;
+    width:40%;
     height:400px;
     
     

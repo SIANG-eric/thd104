@@ -235,116 +235,77 @@ hr{
 .Qa-3 > h2{
     font-size: 28px;}
 .y{display:flex;}
-.div_6 {
+
+
+.clearfix{width: 200px;height:100px;background-color: white;clear: both;}
+.div_6{
     display: flex;
-    width: 100%;
-    height: 240px;
+    width:100%;
+    height:240px;
     
-
     background-color: black;
-    margin-top: 900px;
-
-
-
-}
-
-.div_6 p {
-    margin-left: 60px;
-    color: white;
+    margin-top: 40px ;
+    clear: both;
     
-    width: 400px;
+    
+    
+}
+.div_6 p{
+    margin-left: 60px;
+    color:white;
+    width:400px;
     line-height: 35px;
     margin-top: 60px;
-    margin-bottom: 60px;
-
-
-
-
-
-
-}
-
-.div_6 .ul {
-    display: block;
-    margin-top: 80px;
-    margin-right: 25%;
-    line-height: 32px;
+    margin-bottom: 20px;
+    
     
 
-
-
+    
+    
 
 }
+.div_6 ul{
+  width:400px;
+  height:160px;
+  margin-top:65px ;
+  
+  line-height: 32px;
+  margin-bottom: 160px;
 
-.div_6 .ul li {
+  
+  
 
-    color: white;
+}
+.div_6 ul li{
+    
+    color:white;
     background-color: black;
-    width: 300px;
-    height: 30px;
+    width:300px;
+    height:30px;
     line-height: 20px;
     margin-left: 20px;
-
+    
 }
 
-.div_6 .ul li:nth-child(3) {
-    padding-bottom: 10px;
+.div_6 ul li:nth-child(3){
+    padding-bottom:10px ;
+}
+.icon{
+    width:100px;
+    text-align: center;
+    
+}
+i{
+    font-size: 50px;
+color: white;
+margin: 15px ;
 }
 
-.div_6>.icon_1 {
-    width: 80px;
-    height: 80px;
-
-    margin: 0;
-    margin-top: 80px;
-    background-color: rgb(108, 108, 108, .7);
-    margin-right: 20px;
-    margin-left: 80px;
-    border-radius: 50%;
-
-}
-
-.div_6>.icon_2 {
-    width: 80px;
-    height: 80px;
-
-    margin: 0;
-    margin-right: 10%;
-    margin-top: 80px;
-
-    background-color: rgb(108, 108, 108, .7);
-    border-radius: 50%;
-}
-
-.div_6>.icon_1>img {
-    margin: 0;
-    width: 40px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    line-height: 80px;
-
-}
-
-.div_6>.icon_2>img {
-    margin: 0;
-
-    width: 40px;
-    height: 40px;
-
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    line-height: 80px;
-
-}
-
-.important {
+.important{
     background-color: black;
-    color: rgb(72, 70, 70, .7);
+    color:rgba(249, 247, 247, 0.7);
     margin: 0 auto;
-    width: 100%;
+    width:100%;
     text-align: center;
     font-size: 20px;
 }
