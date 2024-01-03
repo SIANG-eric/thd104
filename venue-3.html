@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>場館資訊</title>
     <script src="https://kit.fontawesome.com/a0a983bc7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/venuue1-rwd.css">
+    
 </head>
 <body>
     <div class="scope">
         <div class="div_1">
-            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <a href="index.html"><img class="logo" src="image/logo.png" alt=""></a>
+            <i class="fa fa-solid fa-bars " ></i>
             <ul>
-                <li><a href="about-me.html">關於我們</a></li>
+                <li><a href="about-me.html"style="display:block;width:100%;">關於我們</a></li>
                 <li><a href="venue.html">場地預約</a></li>
                 <li><a href="Sign-up.html">報名指南</a></li>
                 <li><a href="class3.html">課程分類</a></li>
@@ -46,13 +49,22 @@
         <img src="image/site3.jpg" alt="">
     </div>
     <ul class="text">
-        <li><i class="fa-solid fa-location-dot"style="color:green;font-size: 16px;"></i>地址:臺北市南港區南港路一段360號4樓</li>
-        <li><i class="fa-solid fa-phone"style="color:green;font-size: 16px;"></i>電話:0987654321</li>
-        <li><i class="fa-solid fa-flag"style="color:green;font-size: 16px;"></i>羽球場:5面、9.8M挑高</li>
-        <li><i class="fa-solid fa-faucet-drip"style="color:green;font-size: 16px;"></i>本場地設有飲水機、無障礙廁所</li>
-        <li><i class="fa-solid fa-fan"style="color:green;font-size: 16px;"></i>冷氣開放</li>
+        <li><i class=" bb fa-solid fa-location-dot"></i>地址:臺北市南港區南港路一段360號4樓</li>
+        <li><i class=" bb fa-solid fa-phone"></i>電話:0987654321</li>
+        <li><i class=" bb fa-solid fa-flag"></i>羽球場:5面、9.8M挑高</li>
+        <li><i class=" bb fa-solid fa-faucet-drip"></i>本場地設有飲水機、無障礙廁所</li>
+        <li><i class=" bb fa-solid fa-fan"></i>冷氣開放</li>
     </ul>
-    
+    <div class="add ">
+        <ul class="cc">
+            <li><i class=" bb fa-solid fa-location-dot"id="bb1"></i></li>
+            <li><i class=" bb fa-solid fa-phone"id="bb2"></i></li>
+            <li><i class=" bb fa-solid fa-flag"id="bb3"></i></li>
+            <li><i class=" bb fa-solid fa-faucet-drip"id="bb4"></i></li>
+            <li><i class=" bb fa-solid fa-fan"id="bb5"></i></li>
+        </ul>
+    </div>
+    <div class="dd"></div>
     <div class="box">
         <ul class="ch1">
             <li>日期</li>
@@ -96,7 +108,36 @@
         師專業技術養成班學員作品,僅供學習、展
         示之用途。</p>
     </div>
-    
+    <script>
+        let i1=document.querySelector('#bb1')
+        i1.addEventListener('click',function(){
+            let dd=document.querySelector('.dd')
+            dd.innerHTML="地址:臺北市南港區南港路一段360號4樓";
+        })
+        let i2=document.querySelector('#bb2')
+        i2.addEventListener('click',function(){
+            let dd=document.querySelector('.dd')
+            dd.innerHTML="電話:0987654321";
+        })
+        let i3=document.querySelector('#bb3')
+        
+        i3.addEventListener('click',function(){
+            let dd=document.querySelector('.dd')
+            dd.innerHTML="羽球場:5面、9.8M挑高";
+        })
+        let i4=document.querySelector('#bb4')
+        i4.addEventListener('click',function(){
+            let dd=document.querySelector('.dd')
+            dd.innerHTML="本場地設有飲水機、無障礙廁所";
+        })
+        let i5=document.querySelector('#bb5')
+        i5.addEventListener('click',function(){
+            let dd=document.querySelector('.dd')
+            dd.innerHTML="冷氣開放";
+        })
+        
+        
+    </script>
 
 </body>
 </html>

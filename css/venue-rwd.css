@@ -112,10 +112,13 @@
 @media screen and (max-width: 900px){
 
     .close{display:none;}
+    .img_1{justify-content: space-around;}
     .aa{
-        height: 160px;}
+        height: 300px;}
     .open{display: block;}
-    
+    .introduce-1{order:3;width:30%;}
+    .img_1-1{order:1;width:30%}
+    .aa{order:2; width:30%}
 }
 @media screen and (max-width: 832px){
     .fa{display:block;

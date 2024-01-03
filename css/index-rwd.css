@@ -2,11 +2,6 @@
     .fa{display: none;
     }
 }
-@media screen and (max-width: 1600px){
-    .fa{
-        display: none;
-    }
- }
 
 
 @media screen and (max-width: 1369px){ 

@@ -13,7 +13,7 @@ body{
     
     
 }
-.img{
+.logo{
     width: 250px;
     height:100px;
     
@@ -353,7 +353,26 @@ border-radius: 20px;
 .bgi_2d3{display: none;}
 
 
+.carousel-container {
+    overflow: hidden;
+    width:600px;
+    height:600px;
+}
 
+.sliderBoard {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.bgi_2a {
+    flex: 0 0 100%;
+    display: flex;
+}
+
+.carousel-image {
+    width: 100%; /* 讓圖片寬度與父容器相同 */
+    border-radius: 20px;
+}
 
 
 
@@ -416,14 +435,15 @@ border-radius: 20px;
     align-items: center;
 }
 .icon > a{
-    width: 60px;
-    height: 40px;
+    width: 40px;
+    height: 20px;
 }
-i{
+i{width: 40px;
     font-weight: 200px;
     color: white;
-    margin: 20px; /* 清除預設邊距 */
+    margin: 10px; /* 清除預設邊距 */
 }
+
 
 .important{
     background-color: black;

@@ -8,35 +8,16 @@
     <link rel="stylesheet" href="./css/reset.css">
     <script src="./js/jquery-3.7.1.js"></script>
     <script src="https://kit.fontawesome.com/a0a983bc7d.js" crossorigin="anonymous"></script>
-    <style>
-        .carousel-container {
-            overflow: hidden;
-            width:600px;
-            height:600px;
-        }
-
-        .sliderBoard {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .bgi_2a {
-            flex: 0 0 100%;
-            display: flex;
-        }
-
-        .carousel-image {
-            width: 100%; /* 讓圖片寬度與父容器相同 */
-            border-radius: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/class3-rwd.css">
+    
 </head>
 <body>
-    <div class="scope">
+   
         <div class="div_1">
-            <a href="index.html"><img class="img" src="image/logo.png" alt=""></a>
+            <a href="index.html"><img class="logo" src="image/logo.png" alt=""></a>
+            <i class=" fa fa-solid fa-bars "></i>
             <ul>
-                <li><a href="about-me.html">關於我們</a></li>
+                <li><a href="about-me.html"style="display:block;width:100%;">關於我們</a></li>
                 <li><a href="venue.html">場地預約</a></li>
                 <li><a href="Sign-up.html">報名指南</a></li>
                 <li><a href="class.html">課程分類</a></li>
@@ -47,7 +28,7 @@
             
         </div>
         <hr>
-    </div>
+    
    
     <div class="thp">
         <h1 class="h1">如何有效率地把羽球練好？</h1>
@@ -62,15 +43,18 @@
             提供實惠的練球價格，以及務實的請假補課辦法
             ，替您節約練球預算。
         </p>
-        <div class="bgi_1">
+        
             <h2 class="h2">打破規律 多變挑戰！</h2>
             <h3 class="h3">讓lütuf top oyna陪你更厲害</h3>
-        </div>
-        <h2 class="h2_2">課程分類</h2>
-        <p class="p_2">lütuf top oyna為您準備好高端品質的訓練課程
+        
+        
+            <h2 class="h2_2">課程分類</h2>
+            <p class="p_2">lütuf top oyna為您準備好高端品質的訓練課程
             不論是單打、雙打、或是戰術的訓練都擁有完善的
             規劃
         </p>
+        
+        
         
         
     </div> 
@@ -80,7 +64,7 @@
                         
         
            <!-- ------bgi_2a -->
-            <div class="carousel-container"style="height:650px">
+            <div class="carousel-container">
                 <!-- -----------------輪播圖片控制鈕 -->
                 <div><button onclick="prevSlide()" class="btn1"></button>
                     <button onclick="nextSlide()" class="btn2"></button>      </div>
