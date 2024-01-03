@@ -2,39 +2,12 @@
     .fa{display: none;
     }
 }
-@media screen and (max-width: 1600px){
-    .fa{
-        display: none;
-    }
- }
- @media screen and (max-width: 1369px){ 
-        .div_2_h2{
-            font-size: 45px;
-            position: absolute;
-            top: 369px;
-            right:140px;
- 
+@media screen and (max-width: 1369px){ 
+    .logo{margin-top: 30px;
+        margin-left: 30px;}
+        .fa{
+            display: none;
         }
-        .logo{margin-top: 30px;
-            margin-left: 30px;}
-            .fa{
-                display: none;
-            }
-            .thp {width:100%;}
-            .p {width:100%;}
-            .bgi_1 {width:100%;}
-            .p_2 {width:100%;}
-           
-            
-}
-@media screen and (max-width: 1200px){
-    .p{padding: 20px;
-    margin: 0 20px;}
-    .bgi_2b {
-        margin-top: 100px;
-        margin-right: 10px;
-        width: 45%;
-}.carousel-container{height: 650px;}
 }
 @media screen and (max-width: 1152px){
     .logo{
@@ -44,8 +17,10 @@
         
        margin-bottom: 40px;
     }
+    
     .div_1{
         height:120px;
+    
     }
     .div_1 li{
    
@@ -61,50 +36,6 @@
         font-weight: bold;
      }
      
-    }
-
-    @media screen and (max-width: 1005px){
-        .bgi_2{
-            display: block;
-        }
-        .carousel-container{margin: 0 auto;}
-        .bgi_2b {margin: 0 auto;}
-        .bgi_2b {width:80%;height:450px;}
-    }
-
-@media screen and (max-width: 831px){
-        hr{
-            margin-top: 20px;
-           border: 1px solid black;
-        }
-    .fa{
-        display: block;
-        font-weight: 600px;
-        margin-top: 40px;
-    }
-    .div_1> ul{
-        width:auto;
-       display: block;
-        background-color:#2B944F;
-        align-items: end;
-        justify-content: center;
-        position: absolute;
-        right:0;
-        top:120px;
-        z-index: 1;
-        width:30%;
-        display: none;  
-    }
-    .div_1 li{
-        width: 100%;
-        margin: 0 auto;
-        border-bottom: 1px solid black;
-        background-color:#2B944F;
-        border-radius:0;
-     }
-    .div_1 .fa:hover~ul{
-        display: block;
-     }
 }
 @media screen and (max-width: 978px){
     .div_6{
@@ -171,6 +102,41 @@
        border: 1px soloid black;
     }
 }
+
+@media screen and (max-width: 831px){
+    hr{
+        margin-top: 20px;
+       border: 1px solid black;
+    }
+.fa{
+    display: block;
+    margin-top: 40px;
+}
+.div_1> ul{
+    width:auto;
+   display: block;
+    background-color:#2B944F;
+    align-items: end;
+    justify-content: center;
+    position: absolute;
+    right:0;
+    top:120px;
+    z-index: 1;
+    width:30%;
+    display: none;  
+}
+.div_1 li{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    background-color:#2B944F;
+    border-radius:0;
+ }
+.div_1 .fa:hover~ul{
+    display: block;
+ }
+ 
+}
 @media screen and (max-width:781px){
     .logo{
         width: 180px;
@@ -193,6 +159,21 @@ hr{
     display: block;
     margin-top: 40px;
 }
+.div_4 .img_4{width: 50%;
+    height:160px;
+    
+    margin-left:20px ;
+}
+.img_5{
+    width: 50%;
+    height:160px;
+}
+.div_5{height:500px;}
+.div_5 img{
+    margin-top: 40px;
+    width:400px;
+    height:280px;
+}
 .div_6{
     height:260px;   
 }
@@ -214,11 +195,12 @@ hr{
 }
 
 
-
-.h2 {margin-top: 20px;}
-.h2_2 {margin-top: 0;}
 }
 @media screen and (max-width:633px){
+    .div_4 .img_4{width: 50%;
+        margin-left: 20px;
+        height:160px;    
+    }
     .div_6{
         height:260px;   
     }
@@ -240,37 +222,8 @@ hr{
     }
     
 }
-@media screen and (max-width:600px){
-     .carousel-container{
-        width:450px;
-     }.bgi_2a_1 {
-        width:100%;
-     }
-     .bgi_2a_2{width:40%;height:200px;}
-     .bgi_2a_3{width:40%;height:200px;}
-     .bgi_2a_1>img{width:100%;}
-     .bgi_2a_2>img{width: 180px;height:180px;margin: 0;}
-     .bgi_2a_3>img{width: 180px;height:180px;margin: 0;}
-    
-} 
-@media screen and (max-width:472px){
-    .div_6 ul li {
-        font-size: 16px;
-        margin-left: 0;
-    }
-    .icon{
-        width:60px;
-    }
-} 
-@media screen and (max-width:462px){
-    .carousel-container{
-        width:370px;
-    height:550px;}
-        .bgi_2a_2>img{width: 160px;height:160px;margin: 0;}
-     .bgi_2a_3>img{width: 160px;height:160px;margin: 0;}
-}
-@media screen and (max-width:400px){
-      
+
+@media screen and (max-width: 400px){ 
     .div_6 ul{
         width:250px;
     }

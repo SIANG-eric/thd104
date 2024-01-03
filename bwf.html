@@ -108,22 +108,36 @@
                    
                    
                    
+                   document.addEventListener('DOMContentLoaded', function () {
+                var hamburgerIcon = document.querySelector('.fa');
+                var menu = document.querySelector('.div_1>ul');
+            
+                
+                hamburgerIcon.addEventListener('click', function () {
                    
-                    
-                    
-                    
-                    
-                   
-                    
-                    // console.log(p1);
-                    // x.addEventListener('mouseover',function(){
-                    //     p1.setAttribute("style","display:block");
-                       
-                    // });
+                    if (menu.style.display === 'block') {
+                        menu.style.display = 'none';
+                    } else {
+                        menu.style.display = 'block';
+                    }
+                });
+            
+                
+                var menuLinks = document.querySelectorAll('.div_1 li a');
+                menuLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        menu.style.display = 'none';
+                    });
+                });
+            });
 
-                    // x.addEventListener('mouseout',function(){
-                    //     p1.setAttribute('style','display:none');
-                    // })
+                    
+                    
+                    
+                    
+                   
+                    
+                    
                 </script>
 </body>
 </html>

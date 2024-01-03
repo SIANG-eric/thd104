@@ -75,7 +75,30 @@
     
       
     
-    
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var hamburgerIcon = document.querySelector('.fa');
+                var menu = document.querySelector('.div_1>ul');
+            
+                // 點擊漢堡選單圖標的事件處理器
+                hamburgerIcon.addEventListener('click', function () {
+                    // 切換選單的顯示和隱藏
+                    if (menu.style.display === 'block') {
+                        menu.style.display = 'none';
+                    } else {
+                        menu.style.display = 'block';
+                    }
+                });
+            
+                // 點擊選單連結時，隱藏選單
+                var menuLinks = document.querySelectorAll('.div_1 li a');
+                menuLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        menu.style.display = 'none';
+                    });
+                });
+            });
+            </script> 
 </body>
 
 </html>
