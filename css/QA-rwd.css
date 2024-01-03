@@ -33,6 +33,10 @@
         border-radius: 10px;
         font-weight: bold;
      }
+     .main{
+        width:auto;
+     }
+     .body{width:75%;}
 }
 @media screen and (max-width: 978px){
     .div_6{
@@ -109,6 +113,14 @@
     display: block;
     margin-top: 40px;
 }
+.p_1{line-height: 20px;font-size: 16px;}
+.p_2{line-height: 20px;font-size: 16px;}
+.p_3{line-height: 20px;font-size: 16px;}
+.p_4{line-height: 20px;font-size: 16px;}
+.p_5{line-height: 20px;font-size: 16px;}
+.p_6{line-height: 20px;font-size: 16px;}
+.p_7{line-height: 20px;font-size: 16px;}
+.p_8{line-height: 20px;font-size: 16px;}
 .div_1> ul{
     width:auto;
    display: block;
@@ -161,16 +173,7 @@ hr{
     
     margin-left:20px ;
 }
-.img_5{
-    width: 50%;
-    height:160px;
-}
-.div_5{height:500px;}
-.div_5 img{
-    margin-top: 40px;
-    width:400px;
-    height:280px;
-}
+
 .div_6{
     height:260px;   
 }
@@ -217,6 +220,14 @@ hr{
         
         margin-top: 0;
     }
+    .Q1-1>p{font-size: 20px;}
+    .Q2-1>p{font-size: 20px;}
+    .Q3-1>p{font-size: 20px;}
+    .Q4-1>p{font-size: 20px;}
+    .Q5-1>p{font-size: 20px;}
+    .Q6-1>p{font-size: 20px;}
+    .Q7-1>p{font-size: 20px;}
+    .Q8-1>p{font-size: 20px;}
     
 }
 

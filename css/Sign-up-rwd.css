@@ -1,6 +1,7 @@
 @media screen and (max-width: 2000px){
     .fa{display: none;
     }
+    .zzz{display: none;}
 }
 @media screen and (max-width: 1369px){ 
     .logo{margin-top: 30px;
@@ -9,6 +10,7 @@
             display: none;
         }
 }
+
 @media screen and (max-width: 1152px){
     .logo{
         width: 180px;
@@ -35,8 +37,67 @@
         border-radius: 10px;
         font-weight: bold;
      }
+     .zzz{display: none;}
      
 }
+@media screen and (max-width: 1200px){
+    .img_1 {margin-top: 180px;
+        margin-left: 120px
+    }
+    .p{width: 45%;}
+    .p-2{margin-left: 300px;}
+    .p-4{margin-left: 0;margin-bottom: 20px;}
+    .add {width:50%;}
+    .Qa-1{width:30%;}
+    .Qa-2{width:30%;}
+    .Qa-3{width:30%;}
+    .img_3 {margin-left: 120px;}
+    .QA-1{text-align: left;
+        margin-left: 420px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1000px){
+    .p{width: 50%;}
+    .add {width:45%;}
+    .img_1 {margin-left: 50px;}
+    .p-2{margin-top: 120px;margin-left: 230px;}
+    .img_3{margin-top: 120px;margin-left: 50px;}
+    .p-4{margin-left: 20px;margin-bottom: 100px;}
+    
+}
+@media screen and (max-width: 900px){
+ .res{display: none;} 
+ .zzz{display: block;}
+ .img_1{margin-top: 0 ;margin: 0 auto;} 
+ .img_2{margin-top: 0 ;margin: 0 auto;} 
+ .img_3{margin-top: 0 ;margin: 0 auto;}
+ .x{display: block;height:0;} 
+ .QA-1-1 {width:1200px;margin: 0 auto;}
+ .Qa-1{width:20%;margin-top: 0;padding: 0;
+margin-left: 40px;}
+    .Qa-2{width:20%;float: left;
+        overflow: hidden;
+        padding: 0;height:360px;
+    margin: 0 10px;}
+    .Qa-3{width:20%;padding: 0;margin-top: 0;height:360px;}
+    .QA-1{
+        margin-left:336px;
+        margin-bottom: 20px;
+    }
+    .Qa-1>li{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Qa-2>li{font-size: 20px;
+        line-height: 30px;
+    }
+    .Qa-3>li{font-size: 20px;
+        line-height: 30px;}
+    }
+
 @media screen and (max-width: 978px){
     .div_6{
         display: block;
@@ -102,8 +163,25 @@
        border: 1px soloid black;
     }
 }
+@media screen and (max-width: 930px){
+
+}
 
 @media screen and (max-width: 831px){
+    .QA-1-1 {width:800px;}
+   .Qa-1{width:30%;margin-left: 0;}
+   .Qa-2{width:25%;}
+   .Qa-3{width:30%;}
+    .Qa-1>li{
+    font-size: 16px;
+    line-height: 30px;
+}
+    .Qa-2>li{font-size: 16px;
+    line-height: 20px;
+}
+    .Qa-3>li{font-size: 16px;
+    line-height: 20px;}
+}
     hr{
         margin-top: 20px;
        border: 1px solid black;
@@ -136,7 +214,7 @@
     display: block;
  }
  
-}
+
 @media screen and (max-width:781px){
     .logo{
         width: 180px;
