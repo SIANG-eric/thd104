@@ -1,10 +1,14 @@
-
-
-@media screen and (max-width: 1600px){    
-    .fa{
-            display: none;}
-        
+@media screen and (max-width: 2000px){
+    .fa{display: none;
+    }
 }
+@media screen and (max-width: 1600px){
+    .fa{
+        display: none;
+    }
+ }
+
+
 @media screen and (max-width: 1369px){ 
     .div_2>h1{
         font-size: 45px;
@@ -460,6 +464,19 @@
             width:260px;
             height:220px;
         }
+        .div_3_p{font-size: 16px;
+        line-height: 20px;}
+        .div_6 ul li {
+            font-size: 16px;
+            margin-left: 0;
+        }
+        .icon{
+            width:60px;
+        }
+        .div_4 .img_4 {
+            width: 85%;
+            margin-left: 35px;
+        }
 
 }
 @media screen and (max-width:412px){
@@ -519,19 +536,19 @@
 
         
     }
-    .div_1 >a{
-        display: block;
-    }
+    
     .div_1 li{
         width: 100%;
         margin: 0 auto;
         border-bottom: 1px solid black;
         background-color:#2B944F;
         border-radius:0;
+        z-index: 10000;
         
        
      
      }
+     
      .div_1 .fa:hover~ul{
         display: block;
      }
@@ -540,4 +557,22 @@
         margin-top: 20px;
         height: 300px;
      }
+     .div_6 ul{
+        margin-left: 0;
+     }
+     .div_6 ul li{
+      margin-left: 0px;  
+     }
+}
+@media screen and (max-width: 400px){ 
+    .div_6 ul{
+        width:250px;
+    }
+    .div_6 ul li {
+        
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .icon{width:40px;}
+    i{font-size: 30px;}
 }

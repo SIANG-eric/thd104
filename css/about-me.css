@@ -21,7 +21,7 @@ img{
     margin-left: 80px;
    margin-bottom: 40px;
    
-   
+ .fa{display: none;}  
    
     
 }
@@ -310,6 +310,41 @@ li:hover{
     
     
 }
+.add{display: none;}
+.bdd{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cdd{
+    width:100%;
+    margin-top: 20px;
+    justify-content: space-around;
+    
+    width:100%;
+   
+}
+.cdd>p{
+    line-height: 30px; 
+    font-size: 20px; 
+    background-color: #2B944F;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color:white;
+}
+.bdd>h3{
+    font-size: 20px;
+    width: 200px;
+    height:30px;
+    background-color: #2B944F;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 30px;border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
 .div_6{
     display: flex;
     width:100%;
@@ -367,10 +402,10 @@ li:hover{
     
 }
 i{
-    font-size: 50px;
+     font-size: 50px;
 color: white;
 margin: 15px ;
-}
+} 
 
 .important{
     background-color: black;

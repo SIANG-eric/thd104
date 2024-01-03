@@ -3,7 +3,7 @@ body{
 }
 
 .div_1{
-    width:100%;
+    width:auto;
      height:170px; 
     background-color: #2B944F;
     display:flex;
